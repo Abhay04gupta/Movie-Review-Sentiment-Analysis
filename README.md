@@ -9,7 +9,6 @@ This repository contains models for sentiment analysis, including both tradition
 - [Dataset](#dataset)
 - [Dependencies](#dependencies)
 - [Training](#training)
-- [Evaluation](#evaluation)
 - [Results](#results)
 
 ## Overview
