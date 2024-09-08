@@ -1,4 +1,4 @@
-# Sentiment Analysis Model
+# Movie-Review-Sentiment-Analysis
 
 This repository contains models for sentiment analysis, including both traditional machine learning and deep learning approaches. The project involves preprocessing text data, training models to classify sentiment as positive or negative, and evaluating their performance.
 
