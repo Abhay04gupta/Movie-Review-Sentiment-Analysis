@@ -1,3 +1,4 @@
+
 # Sentiment Analysis
 
 This project focuses on building a sentiment analysis model using both traditional machine learning and deep learning approaches. The dataset contains text data labeled with positive or negative sentiments. The project includes text preprocessing, model training (using Logistic Regression and LSTM), and model evaluation.
