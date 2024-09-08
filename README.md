@@ -42,8 +42,27 @@ Ensure you have the following dependencies installed:
 - matplotlib
 - seaborn
 
-You can install these dependencies using:
+## Training
 
-```bash
-pip install -r requirements.txt
+The training process involved fine-tuning a pre-trained Hugging Face model on the English-Hindi translation dataset.
+
+### Steps:
+1. **Data Preprocessing:**
+   - Clean and preprocess the text data (tokenization, lemmatization).
+   - Split the data into training and testing sets.
+   
+2. **Training Logistic Regression:**
+   - Use TF-IDF vectorization to convert text data into numerical features.
+   - Train a Logistic Regression model using the processed data.
+
+3. **Training LSTM:**
+   - Prepare sequential data for the LSTM model.
+   - Train the LSTM model to classify sentiment based on the text sequences.
+   
+4. **Model Saving:**
+   - Save the trained models and vectorizers for later use.
+
+## Results 
+The models achieved satisfactory results in classifying sentiment with notable accuracy of 88.25% with Logistics Regression and TFIDF embedding. The Logistic Regression model performed well with TF-IDF features, while the LSTM model demonstrated robust performance by capturing sequential patterns in the data.
+
 
